@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin: 60px 100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h3,h4{
+    margin: 50px 0 0 0;
+    padding: 0;
+}
+.free{
+    margin: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.cones li:nth-child(odd){
+    margin-top: 40px;
+}
+.shakes li:nth-child(odd){
+    margin-top: 40px;
+}
+.shakes li:nth-child(7){
+    margin-top: 0;
+}

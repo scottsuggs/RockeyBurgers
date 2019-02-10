@@ -1,0 +1,11 @@
+h1{
+    margin: 10px 75px;
+}
+.container {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 60px;
+}
+.btn-info{
+    font-size: 25px;
+}
