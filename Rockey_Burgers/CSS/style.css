@@ -1,0 +1,111 @@
+html,body{
+    width: 1522px;
+    height: 83px;
+}
+.header{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9b2626;
+}
+.logo{
+    margin: 20px 0 20px 10px;
+}
+.nav{
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    font-family: 'Viga', sans-serif;
+}
+div a{
+    text-decoration: none;
+}
+.nav div{
+    padding: 20px;
+}
+.nav a{
+    color: white;
+}
+.searchbar{
+    margin-right: 5px;
+}
+.searchbtn{
+    margin-right: 20px;
+}
+.maincontainer{
+    background-image: url("../Images/Burger-hero.jpg");
+    height: 600px;
+    width: 1522px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+.slogan{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+.buttons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 130px;
+    right: 77px;
+}
+.buttons a{
+    background-color: #9b2626;
+    color: white;
+    height: 30px;
+    width: 155px;
+    border-radius: 4px;
+    transition: transform .2s;
+    padding: 2px 2px;
+    font-family: 'Viga', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin: 7px;
+}
+.buttons,a:hover{
+    transform: scale(1.4);
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #9b2626;
+    height: 50px;
+    width: 1522px;
+    border-top: white solid 2px;
+    border-bottom: white solid 2px;
+}
+.subscribe{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    font-family: 'Viga', sans-serif;
+    font-size: 23px;
+    color: white;
+}
+.socialmedia{
+    position: absolute;
+    left: 15px;
+    bottom: 12px;
+    font-family: 'Viga', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.twitter{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.facebook{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+}

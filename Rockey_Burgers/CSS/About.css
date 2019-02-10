@@ -1,0 +1,14 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin: 60px;
+}
+.thirdP{
+    color: red;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.secondP, .fourthP, .fifthP, .sixthP, .seventhP{
+    color: brown;
+}
