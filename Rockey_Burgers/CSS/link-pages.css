@@ -1,0 +1,146 @@
+/*All link pages*/
+body{
+    color: black;
+}
+.buttons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 130px;
+    right: 77px;
+}
+.buttons a{
+    background-color: #9b2626;
+    color: white;
+    height: 30px;
+    width: 155px;
+    border-radius: 4px;
+    transition: transform .2s;
+    padding: 2px 2px;
+    font-family: 'Viga', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin: 7px;
+}
+.buttons,a:hover{
+    transform: scale(1.4);
+}
+.header{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9b2626;
+}
+.logo{
+    margin: 20px 0 20px 10px;
+}
+.nav{
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    font-family: 'Viga', sans-serif;
+}
+div a{
+    text-decoration: none;
+}
+.nav div{
+    padding: 20px;
+}
+.nav a{
+    color: white;
+}
+
+/*"About" page*/
+.about h2, h3, p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin: 60px 300px 60px 50px;
+}
+.thirdP{
+    color: red;
+    text-align: center;
+}
+/*"FAQs" page*/
+.h1-faqs{
+    margin: 10px 75px;
+}
+.container-faqs {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 60px;
+}
+.btn-info{
+    font-size: 25px;
+}
+
+/*"Food-menu" page*/
+.foodMenu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin: 60px 100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.food-menu-h3 .food-menu-h4{
+    margin: 0;
+    padding: 0;
+}
+.free{
+    margin: 0;
+}
+.food-menu-p{
+    margin: 0;
+    padding: 0;
+}
+.cones li:nth-child(odd){
+    margin-top: 40px;
+}
+.shakes li:nth-child(odd){
+    margin-top: 40px;
+}
+.shakes li:nth-child(7){
+    margin-top: 0;
+}
+
+/*"Jobs" page*/
+.submitbutton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form div{
+    margin-top: 10px;
+}
+.checkbox{
+    margin-bottom: 10px;
+}
+
+/*"Subscribe" page*/
+.subscribe,form,div{
+    margin-top: 10px;
+}
+
+/*"Utah-locations" page*/
+.container-locations{
+    margin: 50px 350px;
+}
+.map{
+    width: 400px;
+    height: 300px;
+}
+.locations{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    border-spacing: 15px;
+}
+td,th{
+    text-align: left;
+    padding: 8px;
+}
